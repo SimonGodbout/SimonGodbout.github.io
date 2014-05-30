@@ -15,9 +15,6 @@ root {
     font-size:120px;
     color:#ffffff;
 }
-.jumbotron.black-bg > * {
-    opacity: 1;
-}
 .background{
     background-image:url(/images/bg.jpg);
     background-position: center top;
@@ -34,6 +31,7 @@ root {
     background-color:#000000;
     opacity: 0.8;
 }
-.jumbotron > .container *{
+.jumbotron > .container div{
     opacity:1;
+    background-color:rgba(0, 255, 0, 1)
 }
