@@ -15,6 +15,10 @@ root {
     font-size:90px;
     color:#808080;
 }
+.main-title .capital{
+    font-family: 'Lobster', cursive;
+    color:#00bcbc;
+}
 .background{
     background-image:url(/images/bg.jpg);
     background-position: center top;
@@ -29,10 +33,11 @@ root {
 }
 .white-bg{
     background-color:#ffffff;
+    opacity: 0.8;
 }
 .jumbotron.white-bg{
     padding-bottom: 0;
-    opacity: 0.8;
+    
 }
 .jumbotron > .container div{
     opacity:1;
