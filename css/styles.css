@@ -12,12 +12,13 @@ root {
 .title{
 }
 .main-title{
-    font-size:120px;
-    color:#ffffff;
+    font-size:90px;
+    color:#808080;
 }
 .background{
     background-image:url(/images/bg.jpg);
     background-position: center top;
+    background-attachment:fixed;
     min-height:1080px;
 }
 .avatar{
@@ -26,12 +27,12 @@ root {
     background-position: center top;
     background-repeat:no-repeat
 }
-.jumbotron.black-bg{
+.jumbotron.white-bg{
     padding-bottom: 0;
-    background-color:#000000;
+    background-color:#ffffff;
     opacity: 0.8;
+    position:absolute;
 }
 .jumbotron > .container div{
     opacity:1;
-    background-color:rgba(0, 255, 0, 1)
 }
