@@ -9,3 +9,9 @@
 root { 
     display: block;
 }
+.title{
+}
+.main-title{
+    font-size:120px;
+    color:#ffffff;
+}
