@@ -15,9 +15,13 @@ root {
     font-size:120px;
     color:#ffffff;
 }
+.jumbotron.black-bg > * {
+    opacity: 1;
+}
 .background{
     background-image:url(/images/bg.jpg);
     background-position: middle top;
+    min-height:1080px;
 }
 .avatar{
     height:300px;
