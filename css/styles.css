@@ -15,10 +15,6 @@ root {
     font-size:120px;
     color:#ffffff;
 }
-.black-bg{
-    background-color:#000000;
-    opacity: 0.8;
-}
 .background{
     background-image:url(/images/bg.jpg);
     background-position: middle top;
@@ -30,6 +26,8 @@ root {
 }
 .jumbotron.black-bg{
     padding-bottom: none;
+    background-color:#000000;
+    opacity: 0.8;
 }
 .jumbotron > .container{
     opacity:1;
