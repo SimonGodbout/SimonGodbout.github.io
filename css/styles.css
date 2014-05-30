@@ -27,11 +27,12 @@ root {
     background-position: center top;
     background-repeat:no-repeat
 }
+.white-bg{
+    background-color:#ffffff;
+}
 .jumbotron.white-bg{
     padding-bottom: 0;
-    background-color:#ffffff;
     opacity: 0.8;
-    position:absolute;
 }
 .jumbotron > .container div{
     opacity:1;
