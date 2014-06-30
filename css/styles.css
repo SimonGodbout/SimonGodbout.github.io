@@ -44,10 +44,8 @@ root {
 }
 
 #header {
-    max-height: 355px;
     position: relative;
     border-bottom: 7px solid #00bcbc;
-    margin-bottom: 30px;
 }
 
 #content .container {
