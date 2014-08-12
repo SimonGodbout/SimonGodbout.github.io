@@ -14,7 +14,7 @@ root {
     color: #808080;
 }
 
-#main-title .capital {
+.capital {
     font-family: 'Lobster', cursive;
     color: #00bcbc;
 }
@@ -37,13 +37,13 @@ root {
     background-color: #ffffff;
 }
 
-.white-bg.jumbotron {
+header .jumbotron {
     margin-bottom: 0px;
     padding-bottom: 0px;
-    background-color: #ffffff;
+    background: none !important;
 }
 
-#header {
+header {
     position: relative;
     border-bottom: 7px solid #00bcbc;
     margin-bottom: 30px;
@@ -56,4 +56,9 @@ root {
     #header {
         max-height:507px  
     }
+}
+#jdm{
+    text-shadow: -1px -3px 0px rgba(173, 255, 255, 0.8);
+    font-family: 'Lobster', cursive;
+    font-size:30px;
 }

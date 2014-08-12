@@ -1,51 +1,149 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Simon Godbout">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <title>Simon Godbout - Web Developer</title>
-</head>
-<body class="background">
-    <div id="header">
-        <div class="jumbotron white-bg">
-            <div class="container">
-                <div class="col-lg-8 col-md-6 col-sm-4 col-xs-12">
-                    <h1 class="title" id="main-title">
-                        <span class="capital">S</span>imon <span class="capital">G</span>odbout
-                    </h1>
-                    <h2>
-                        Web Developer
-                    </h2>
-                    <h3>
-                        <a href="mailto:info@simongodbout.com"><em>info@simongodbout.com</em></a>
-                    </h3>
-                </div>
-                <div class="col-lg-4 avatar col-md-6 col-sm-8 col-xs-12">
+<html lang="en" ng-app="website">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Simon Godbout">
+        <link rel="stylesheet" href="content/css/styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+        <script src="content/js/app.js"></script>
+        <title>Simon Godbout - Web Developer</title>
+    </head>
+    <body class="background">
+        <header class="white-bg">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><span class="capital">S</span>imon <span class="capital">G</span>odbout</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Websites</a></li>
+                            <li><a href="#">My skills</a></li>
 
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="col-lg-8 col-md-6 col-sm-4 col-xs-12">
+                        <h1 class="title" id="main-title">
+                            <span class="capital">S</span>imon <span class="capital">G</span>odbout
+                        </h1>
+                        <h2>
+                            Web Developer
+                        </h2>
+                        <h3>
+                            <a href="mailto:info@simongodbout.com"><em>info@simongodbout.com</em></a>
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 avatar col-md-6 col-sm-8 col-xs-12">
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="content">
+            <div class="container white-bg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>
+                            Projects I worked on
+                        </h3>
+                        <p>
+                            <a href="https://docs.google.com/document/d/14PnNssVHlkEIhLgIDDT1roqbD00UlhCs0avNQQv12mA/edit" target="_blank">
+                                <strong>
+                                    copy of my resumé (french)
+                                </strong>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-lg-4">
+                        <a href="http://www.buzzmath.com/" target="_blank" >
+                            <img src="content/images/buzzmath.png" />
+                        </a>
+                        
+                    </div>
+                    <div class="col-lg-8">
+                        <p>
+                            Buzzmath is the best way to practice your middle school math skills. It's fun, it has immediate detailed feedback and examples that allow you to progress at your own pace.
+                        </p>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-lg-4">
+                        <a href="http://www.netmaths.net/" target="_blank" >
+                            <img src="content/images/netmaths.png" />
+                        </a>                        
+                    </div>
+                    <div class="col-lg-8">
+                        <p>
+                            Netmaths est le meilleur moyen de pratiquer vos compétences en mathématiques. C'est amusant; il y a immédiatement des résultats détaillés et des exemples qui vous permettent de progresser à votre propre rythme.
+                        </p>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-lg-4">
+                        <a href="http://www.eig8tfilms.com/" target="_blank" >
+                            <img src="content/images/eightfilms.png" />
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>
+                            Presentation website for the video production company Eig8tfilms 
+                        </p>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-lg-4">
+                        <a href="http://www.eig8tfilms.com/" target="_blank" >
+                            <img src="content/images/eightfilms.png" />
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>
+                            Presentation website for the video production company Eig8tfilms 
+                        </p>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-lg-4">
+                        <a href="http://www.jacksaloon.com/Concours/" target="_blank" >
+                            <img src="content/images/jacksaloon.png" />
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>
+                            Participation form for an eating contest hosted at Jack Saloon
+                        </p>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-lg-4">
+                        <a href="https://www.journeedesmaths.com/qc" target="_blank" >
+                            <span id="jdm" >La Journée des maths</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>
+                            Presentation website for the math day contest hosted by Buzzmath / Netmaths
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="content">
-        <div class="container white-bg">
-            <div class="col-lg-12">
-                <h3>
-                    What I do
-                </h3>
-                <p>
-                    <a href="https://docs.google.com/document/d/14PnNssVHlkEIhLgIDDT1roqbD00UlhCs0avNQQv12mA/edit" target="_blank">
-                        <strong>
-                            copy of my resumé (french)
-                        </strong>
-                    </a>
-                </p>
-            </div>
-        </div>
-</body>
+    </body>
 </html>
