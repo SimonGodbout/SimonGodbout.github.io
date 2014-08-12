@@ -62,3 +62,6 @@ header {
     font-family: 'Lobster', cursive;
     font-size:30px;
 }
+.porfolio-img{
+    max-width: 250px;
+}
