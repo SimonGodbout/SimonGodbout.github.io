@@ -65,3 +65,6 @@ header {
 .porfolio-img{
     max-width: 250px;
 }
+a.no-decoration:hover{
+    text-decoration:none;
+}
